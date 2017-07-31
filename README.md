@@ -2,12 +2,12 @@
 
 Dockerized Zabbix Proxy XXL
 
-You can check logs during DB initialization:
-
 Project up
 <pre>
 docker-compose up -d 
 </pre>
+
+You can check logs during DB initialization:
 
 Logs
 <pre>
