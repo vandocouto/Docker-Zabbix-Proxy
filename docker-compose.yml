@@ -29,6 +29,7 @@ services:
   volumes:
    - /:/rootfs
    - /var/run:/var/run
+   - /etc/localtime:/etc/localtime:ro
   hostname: zabbix-proxy-sp
   links:
    - zabbix-proxy
