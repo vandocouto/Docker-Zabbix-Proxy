@@ -30,6 +30,6 @@ services:
    - /:/rootfs
    - /var/run:/var/run
    - /etc/localtime:/etc/localtime:ro
-  hostname: zabbix-proxy-sp
+  hostname: zabbix-agent-sp
   links:
    - zabbix-proxy
