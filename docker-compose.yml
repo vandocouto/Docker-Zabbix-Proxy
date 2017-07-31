@@ -21,15 +21,15 @@ services:
   links:
    - db 
  
- zabbix-agent:
-  image: monitoringartist/dockbix-agent-xxl-limited:latest
-  privileged: true
-  ports:
-   - 10050:10050
-  volumes:
-   - /:/rootfs
-   - /var/run:/var/run
-   - /etc/localtime:/etc/localtime:ro
-  hostname: zabbix-agent-sp
-  links:
-   - zabbix-proxy
+# zabbix-agent:
+#  image: monitoringartist/dockbix-agent-xxl-limited:latest
+#  privileged: true
+#  ports:
+#   - 10050:10050
+#  volumes:
+#   - /:/rootfs
+#   - /var/run:/var/run
+#   - /etc/localtime:/etc/localtime:ro
+#  hostname: zabbix-agent-sp
+#  links:
+#   - zabbix-proxy
