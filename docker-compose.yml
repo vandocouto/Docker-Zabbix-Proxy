@@ -20,3 +20,8 @@ services:
    - /etc/localtime:/etc/localtime:ro
   links:
    - db 
+  logging:
+   driver: "json-file"
+   options:
+     max-size: "250m"
+     max-file: "3"
